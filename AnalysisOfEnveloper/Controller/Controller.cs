@@ -9,6 +9,7 @@
             view.Message();
             Model envelop1 = new Model(view.GetSideAofEnvelop1(),view.GetSideBofEnvelop1());
             Model envelop2 = new Model(view.GetSideAofEnvelop2(),view.GetSideBofEnvelop2());
+
             switch (envelop1.CompareEnvelops(envelop2))
             {
                 case 1:

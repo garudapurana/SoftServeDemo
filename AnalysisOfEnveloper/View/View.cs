@@ -8,14 +8,17 @@ namespace AnalysisOfEnveloper
         {
             Console.WriteLine("Program for compare envelopers:");
         }
+
         public void MessageGoodFor2()
         {
             Console.WriteLine("Envelope 2 can fit into envelope 1");
         }
+
         public void MessageGoodFor1()
         {
             Console.WriteLine("Envelope 1 can fit into envelope 2");
         }
+
         public void MessageFail()
         {
             Console.WriteLine("Envelopes cannot fit inside each other");

@@ -7,15 +7,18 @@ namespace Fibonacci
         private ulong startDisapason;
         private ulong endDiapason;
         private int lengthOfNumber;
+
         public Model(ulong startDisapason, ulong endDiapason)
         {
             this.startDisapason = startDisapason;
             this.endDiapason = endDiapason;
         }
+
         public Model(int lengthOfNumber)
         {
             this.lengthOfNumber = lengthOfNumber;
         }
+
         public ulong ClassicFibonacci(ulong n)
         {
             ulong x = 1;
@@ -29,6 +32,7 @@ namespace Fibonacci
             }
             return ans;
         }
+
         public List<ulong> DiapasonFibonacci()
         {
             List<ulong> fibDiapason = new List<ulong>();
@@ -42,6 +46,7 @@ namespace Fibonacci
             }
             return fibDiapason;
         }
+
         public List<ulong> LengthFibonacci()
         {
             List<ulong> fibLength = new List<ulong>();
